@@ -30,7 +30,7 @@ jobs:
           gradle-version: "8.9"
 
       - name: Extract project ZIP
-        run: unzip -o myth-tv-launcher-project.zip
+        run: unzip -o myth-tv-launcher-project-corrected.zip
 
       - name: Build Android APK
         working-directory: myth-tv-launcher
